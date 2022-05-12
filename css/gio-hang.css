@@ -1,0 +1,777 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* css cho navbar  */
+body,html{
+    background-color: #F8F9FA;
+
+}
+
+.navbar-nav li .nav-link{
+   font-size: 13px;
+   padding-top: 17px;
+   font-weight: 400;
+}
+
+.navbar input.form-control {
+    border: 2px solid #CF111A!important;
+
+}
+
+li.nav-item a{
+    transition: 0.2s;
+}
+
+li.nav-item:hover a {
+    color: #F5A623!important;
+}
+
+a.nav-link {
+    padding-top: 8px;
+}
+
+a.navbar-brand {
+    font-size: 34px;
+}
+
+li.nav-item.account {margin-right: 0.5rem;}
+
+a.nav-link {
+    margin-left: -0.5rem;
+}
+
+.navbar-expand-md .navbar-nav .nav-link.giohang{
+    padding-right: 0!important;
+}
+
+i.fa.fa-shopping-cart {
+    margin-left: -1px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+a.btn.btn-secondary.rounded-circle {
+    width: 42px;
+    height: 40px;
+    background-color: #dfdfdf;
+    border: #cacaca;
+}
+
+.cart-amount{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #F5A623;
+    font-size: 12px;
+    position: relative;
+    left: 19px;
+    bottom: 32px;
+    transition: 0.2s;
+}
+
+.nav-item.giohang:hover .cart-amount{
+    background: #CF111A;
+    color: white;
+}
+
+.dropdown-menu {
+    padding: 11px;
+    width: 236px;
+}
+
+a.dropdown-item {
+    background: #F5A623;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    padding: 9px;
+}
+
+a.dropdown-item:hover {
+    background: #F5A623;
+    color: white;
+    box-shadow: 0px 2px 5px #F5A623;
+}
+
+.navbar-nav .nav-item.active a{
+    color: #F5A623;
+}
+
+.nutcuonlen{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.nutcuonlen.hienthi{
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbar.fixed-top{
+    box-shadow: 0px 5px 20px grey;
+}
+/* het css cho navbar  */
+
+/* css cho header formdangnhap dangky  */
+.modal-header {
+    padding-bottom: 0;
+}
+
+ul.tabs li.tab a {
+    font-size: 18px;
+    color: #646464;
+    transition: 0.2s;
+}
+
+ul.tabs li:hover a {
+    color: #F5A623;
+}
+
+ul.tabs li:hover{
+    cursor: pointer;
+}
+
+ul.tabs li hr {position: relative;width: 50%;top: 0px;left: 25%;visibility: hidden;border-top: 2px solid #F5A623;transition: 0.2s;}
+
+ul.tabs li:hover hr {
+    visibility: visible;
+    border-top: 2px solid #F5A623;
+    width: 100%;
+    left: 0;
+}
+
+ul.tabs {
+    width: 100%;
+    height: 100%;
+}
+
+ul.tabs li {
+    width: 40%;
+    height: 100%;
+}
+
+ul.tabs li.active a{
+    color: #F5A623;
+}
+ul.tabs li.active hr {
+    visibility: visible;
+    border-top: 2px solid #F5A623;
+    width: 100%;
+    left: 0;
+}
+/* het css cho header form dangnhap dangky  */
+
+/* css cho formdangnhap dangky*/
+.form-signin {
+    width: 100%;
+  }
+
+.form-signin .btn {
+    font-size: 80%;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+}
+
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+}
+
+.modal-body hr {
+    position: relative;
+    top: 1px;
+}
+
+.btn-signin:hover {
+    color: black!important;
+}
+
+
+
+#formdangky .form-signin p {
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+
+#formdangky .form-signin a {
+    display: block;
+    font-size: 13px;
+}
+
+label.error {
+    display: inline-block;
+    color:red;
+    width: 300px;
+    
+    margin-top:5px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+/* het css cho form dang nhap dangky */
+
+
+
+/* .duoinavbar  */
+.duoinavbar{
+    background-color:#CF111A ;
+}
+
+.benphai.float-right {
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.noidungheader {
+    padding-top: 8px;
+    padding-left: 14px;
+}
+
+.categoryheader {
+    height: 40px;
+    background-color: #aa1318;
+}
+
+.duoinavbar .container .row {
+    height: 40px;
+}
+
+.duoinavbar {
+    height: 40px;
+}
+
+.hotline{
+    display: inline-block;
+    position: relative;
+    margin-right: 11px;
+}
+
+.hotline:after{
+    content:"|";
+    position: absolute;
+    color:white;
+    top: -1px;
+    right: -10px;
+    font-size: 22px;
+}
+
+.benphai a{
+    color: white;
+}
+/* het css .duoinavbar  */
+
+/* css category  */
+.categorycontent{
+    border: 1px solid #b4b2b2;
+    box-sizing: border-box;
+    height: 387px;
+    margin-top: 8px;
+    position: relative;
+    z-index: 10;
+    background: white;
+}
+
+.categorycontent ul{
+    list-style: none;
+    background: white;
+}
+
+.categorycontent > ul > li:hover{
+    background-color: #CF111A;
+    cursor: pointer;
+}
+
+.categorycontent > ul > li:hover > a{
+    color:white;
+}
+
+.categorycontent ul li:hover i.fa.fa-chevron-right{
+    color:white;
+}
+
+.categorycontent > ul > li{
+    border-bottom: 1px solid #f8e1e1;
+    height: 35px;
+}
+
+.categorycontent > ul > li:last-child{
+    border-bottom: none
+}
+
+.categorycontent  ul  li  a{
+    line-height: 35px;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.categorycontent ul li ul{
+    display: none;
+    height: 387px;
+    width: 750px;
+    border: 1px solid #d1d1d1;
+    position: absolute;
+    z-index: 99;
+    top: -1px;
+    left: -16px;
+    margin-left: 270px;
+    box-shadow: 0px 1px 3px #e7dddd;
+    background-color: white;
+}
+
+.categorycontent ul li ul:hover{
+    cursor: auto;
+}
+
+.categorycontent ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.categorycontent ul li:hover ul{
+    display:block;
+
+}
+
+ul i.fa.fa-chevron-right{
+    font-size: 10px;
+    color: #d1d1d1;
+    line-height: 35px;
+    padding-right: 20px;
+}
+/* het css category  */
+
+/* danhmucan */
+
+.categorycontent ul li ul li:first-child{
+    margin-top: 3px;
+}
+
+.categorycontent ul li ul li.liheader{
+    margin-top: 16px;
+}
+
+ul li a.header{
+    font-size: 15px;
+    padding-left: 33px;
+    color: #CF111A;
+}
+
+.categorycontent ul li ul .content{
+    float:left;
+    margin-left: 19px;
+    width: 300px;
+    height: 265px;
+}
+
+
+.categorycontent ul li ul .content.phai{
+    margin-left: 100px;
+}
+
+
+.categorycontent ul li ul .content li a:hover{
+    color: #F5A623;
+}
+
+.categorycontent{
+    display: none;
+}
+
+.categoryheader:hover .categorycontent{
+    display: block;
+}
+/*het danhmucan */
+
+
+/* css cho dichvu  */
+.dichvu p.detail {
+    font-size: 12px;
+    margin-bottom: 1px;
+    width: 198px;
+}
+
+.dichvu {
+    padding: 24px 0px 24px;
+}
+
+.dichvu h6.tieude {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.dichvu .noidung {
+    width: 180px;
+}
+
+.dichvu img {
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+}
+/* het css cho dichvu  */
+
+/* css cho footer  */
+.ptthanhtoan {
+    width: 200px;
+}
+
+footer .row a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    transition: 0.3s;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+footer .row a:hover {
+    color:  #F5A623;
+}
+
+footer .header {
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+/* het css cho footer  */
+
+
+/* css cho breadcrumb  */
+.breadcrumbbar{
+    height: 40px;
+}
+
+.breadcrumb{
+    height: 40px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+
+.breadcrumb-item a{
+    font-size: 12px;
+    color: #666666;
+    text-decoration: none;
+    transition: 0.2s;
+    line-height: 40px;
+}
+
+.breadcrumb-item a:hover{
+    color:#F5A623;
+}
+
+.breadcrumb-item.active a{
+    color:#F5A623;
+}
+/* het css cho breadcrumb  */
+
+
+/* <---css cho gio-hang -->  */
+
+/* css cho cart-content  */
+.item-info .ten {
+    text-decoration: none;
+    color: #282828;
+    display: block;
+}
+
+.item-price .remove {
+    cursor: pointer;
+    font-size: 18px;
+    color: #bebebe;
+}
+
+.item-price .giacu {
+    text-decoration: line-through;
+    color: #b6b6b6;
+}
+
+.item-price {
+    font-size: 14px;
+}
+
+.btn-spin {
+    padding: 0 4px;
+    height: 20px;
+    width: 17px;
+    background: #fefefe;
+    color: black;
+}
+
+.btn-spin:hover {
+    cursor: pointer;
+}
+
+.soluong .soluongsp {
+    width: 32px;
+    height: 20px;
+    border: 1px solid #d1d1d1;
+}
+
+.soluong .input-number {
+    width: 73px;
+    height: 20px;
+}
+
+.item-caption .item-info .ten {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.header-gio-hang span {
+    color: #979797;
+}
+
+.header-gio-hang {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cart-item a.img {
+    width: 90px;
+    height: auto;
+    border: 1px solid  #c8c8c8;
+}
+
+.cart {
+    border-right: 1px solid #ebebeb;
+}
+
+.group strong {
+    font-size: 14px;
+}
+
+.tonggiatien .group .tongcong {
+    font-size: 19px;
+    color: red;
+    font-weight: 600;
+}
+
+.tonggiatien .group p {margin: 0;font-size: 13px;}
+
+.nutmuathem:hover {background: #F5A623;color: white;}
+
+.nutmuathem {
+    border: 1px solid #F5A623;
+    color: #F5A623;
+}
+/* het css cho cart-content  */
+
+/* css cho cart-steps  */
+.card-header{
+    transition: 0.3s;
+}
+
+.card-header.active i.fa.fa-chevron-right {
+    color: white;
+}
+
+.card-header.active span.steps {
+    background: #981318;
+}
+
+.card-header.active a.header {
+    color: white;
+}
+
+.card-header.active {
+    background: #CF111A;
+}
+
+.card-header.active .header i.fa-chevron-right{
+    transform: rotate(90deg);
+}
+
+.header i.fa-chevron-right {
+    margin: 13px 13px 0 0;
+    color: #b0b0b0;
+    transition: 0.3s;
+}
+
+.header span.label {
+    margin-left: 14px;
+}
+
+a.header {display: block;height: 100%;line-height: 42px;font-size: 15px;font-weight: 400;color: black;text-decoration: none;}
+
+.header .steps {
+    display: inline-block;
+    height: 100%;
+    padding: 0px 16px;
+    background: #E7E7E7;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card-header {
+    padding: 0;
+    height: 42px;
+}
+
+.btn-shopping-without-signup:hover {
+    color: black!important;
+}
+
+.tab-pane .custom-control p {
+    margin-right: 22px;
+    margin-bottom: 5px;
+}
+
+.tab-pane .custom-control {
+    font-size: 13px;
+}
+
+.tab-pane .custom-control a {
+    margin-left: 26px;
+}
+
+.tab-pane .form-signin .btn {
+    padding: 12px;
+    letter-spacing: 0.08rem;
+}
+
+#nav-dangnhap .form-signin, #nav-dangky .form-signin  {
+    padding: 15px 15px 8px 15px;
+}
+
+.nav .nav-item {
+    color: #a9a9a9;
+    background: #EEEEEE;
+}
+
+a#nav-dangky-tab {
+    border-right: none;
+}
+
+
+a#nav-dangnhap-tab {
+    margin-left: 0px;
+    border-left: none;
+}
+
+#nav-dangky-tab {
+    margin-left: 0px;
+}
+
+.nav-tabs .nav-item {
+    width: 50%;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.dangnhap-dangky {
+    width: 100%;
+}
+
+#step2contentid .card-body {
+    padding: 15px;
+}
+
+.note-before-checkout {
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.btn-checkout, .btn-shopping-without-signup {
+    padding: 12px;
+    letter-spacing: 0.08rem;
+    font-size: 80%;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.btn-checkout:hover {
+    color: black!important;
+}
+
+.option a {
+    color: #F5A623;
+    text-decoration: none;
+}
+
+.option2 p {
+    margin-bottom: 2px!important;
+}
+
+.option label {
+    font-size: 14px;
+    margin: 0;
+}
+
+label.chuyenkhoan {
+    width: 315px;
+    position: absolute;
+    left: 32px;
+}
+
+.option p {
+    font-size: 14px;
+    padding-left: 17px;
+    margin-bottom: 10px;
+}
+
+#step3contentid .header {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* het css cho cart-steps  */
+
+@media (max-width:767px){
+    .navbar form .input-group{
+        width: 100%!important;
+
+    }
+
+    .navbar ul li a.nav-link{
+        margin-left:0.25rem!important;
+    }
+
+    .navbar ul li.account{
+        border-top: 1px dashed #CF111A;
+        border-bottom: 1px dashed #CF111A;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.25rem;
+    }
+    .navbar ul li.giohang{
+        border-bottom: 1px dashed #CF111A;
+        padding-bottom: 0.5rem;
+        margin-right:8px;
+    }
+    .categorycontent{
+        display: none;
+    }
+
+    .categoryheader:hover .categorycontent{
+        display: none;
+    }
+
+    /* giohang  */
+    .cart-content{
+        padding-right: 16px;
+    }
+
+    .cart-steps{
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* css cho navbar  */
+body,html{
+    background-color: #F8F9FA;
+}
+
+.navbar-nav li .nav-link{
+   font-size: 13px;
+   padding-top: 17px;
+   font-weight: 400;
+}
+
+.navbar input.form-control {
+    border: 2px solid #CF111A!important;
+    
+}
+
+li.nav-item a{
+    transition: 0.2s;
+}
+
+li.nav-item:hover a {
+    color: #F5A623!important;
+}
+
+a.nav-link {
+    padding-top: 8px;
+}
+
+a.navbar-brand {
+    font-size: 34px;
+}
+
+li.nav-item.account {margin-right: 0.5rem;}
+
+a.nav-link {
+    margin-left: -0.5rem;
+}
+
+.navbar-expand-md .navbar-nav .nav-link.giohang{
+    padding-right: 0!important;
+}
+
+i.fa.fa-shopping-cart {
+    margin-left: -1px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+a.btn.btn-secondary.rounded-circle {
+    width: 42px;
+    height: 40px;
+    background-color: #dfdfdf;
+    border: #cacaca;
+}
+
+.cart-amount{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #F5A623;
+    font-size: 12px;
+    position: relative;
+    left: 19px;
+    bottom: 32px;
+    transition: 0.2s;
+}
+
+.nav-item.giohang:hover .cart-amount{
+    background: #CF111A;
+    color: white;
+}
+
+.dropdown-menu {
+    padding: 11px;
+    width: 236px;
+}
+
+a.dropdown-item {
+    background: #F5A623;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    padding: 9px;
+}
+
+a.dropdown-item:hover {
+    background: #F5A623;
+    color: white;
+    box-shadow: 0px 2px 5px #F5A623;
+}
+
+.navbar-nav .nav-item.active a{
+    color: #F5A623;
+}
+
+.nutcuonlen{
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.nutcuonlen.hienthi{
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbar.fixed-top{
+    box-shadow: 0px 5px 20px grey;
+}
+/* het css cho navbar  */
+
+/* css cho header formdangnhap dangky  */
+.modal-header {
+    padding-bottom: 0;
+}
+
+ul.tabs li.tab a {
+    font-size: 18px;
+    color: #646464;
+    transition: 0.2s;
+}
+
+ul.tabs li:hover a {
+    color: #F5A623;
+}
+
+ul.tabs li:hover{
+    cursor: pointer;
+}
+
+ul.tabs li hr {position: relative;width: 50%;top: 0px;left: 25%;visibility: hidden;border-top: 2px solid #F5A623;transition: 0.2s;}
+
+ul.tabs li:hover hr {
+    visibility: visible;
+    border-top: 2px solid #F5A623;
+    width: 100%;
+    left: 0;
+}
+
+ul.tabs {
+    width: 100%;
+    height: 100%;
+}
+
+ul.tabs li {
+    width: 40%;
+    height: 100%;
+}
+
+ul.tabs li.active a{
+    color: #F5A623;
+}
+ul.tabs li.active hr {
+    visibility: visible;
+    border-top: 2px solid #F5A623;
+    width: 100%;
+    left: 0;
+}
+/* het css cho header form dangnhap dangky  */
+
+/* css cho formdangnhap dangky*/
+.form-signin {
+    width: 100%;
+  }
+  
+.form-signin .btn {
+    font-size: 80%;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+  
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+}
+  
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+}
+
+.modal-body hr {
+    position: relative;
+    top: 1px;
+}
+
+.btn-signin:hover {
+    color: black!important;
+}
+
+
+#formdangky .form-signin p {
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+
+#formdangky .form-signin a {
+    display: block;
+    font-size: 13px;
+}
+
+label.error {
+    display: inline-block;
+    color:red;
+    width: 300px;
+    
+    margin-top:5px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+/* het css cho form dang nhap dangky */
+
+
+
+/* .duoinavbar  */
+.duoinavbar{
+    background-color:#CF111A ;
+}
+
+.benphai.float-right {
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.noidungheader {
+    padding-top: 8px;
+    padding-left: 14px;
+}
+
+.categoryheader {
+    height: 40px;
+    background-color: #aa1318;
+}
+
+.duoinavbar .container .row {
+    height: 40px;
+}
+
+.duoinavbar {
+    height: 40px;
+}
+
+.hotline{
+    display: inline-block;
+    position: relative;
+    margin-right: 11px;
+}
+
+.hotline:after{
+    content:"|";
+    position: absolute;
+    color:white;
+    top: -1px;
+    right: -10px;
+    font-size: 22px;
+}
+
+.benphai a{
+    color: white;
+}
+/* het css .duoinavbar  */
+
+/* css category  */
+.categorycontent{
+    border: 1px solid #b4b2b2;
+    box-sizing: border-box;
+    height: 387px;
+    background: white;
+}
+
+.categorycontent ul{
+    list-style: none;
+    background: white;
+}
+
+.categorycontent > ul > li:hover{
+    background-color: #CF111A;
+    cursor: pointer;
+}
+
+.categorycontent > ul > li:hover > a{
+    color:white;
+}
+
+.categorycontent ul li:hover i.fa.fa-chevron-right{
+    color:white;
+}
+
+.categorycontent > ul > li{
+    border-bottom: 1px solid #f8e1e1;
+    height: 35px;
+}
+
+.categorycontent > ul > li:last-child{
+    border-bottom: none
+}
+
+.categorycontent  ul  li  a{
+    line-height: 35px;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.categorycontent ul li ul{
+    display: none;
+    height: 386px;
+    width: 750px;
+    border: 1px solid #d1d1d1;
+    position: absolute;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    margin-left: 270px;
+    box-shadow: 0px 1px 3px #e7dddd;
+    background-color: white;
+}
+
+.categorycontent ul li ul:hover{
+    cursor: auto;
+}
+
+.categorycontent ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.categorycontent ul li:hover ul{
+    display:block;
+
+}
+
+ul i.fa.fa-chevron-right{
+    font-size: 10px;
+    color: #d1d1d1;
+    line-height: 35px;
+    padding-right: 20px;
+}
+/* het css category  */
+
+/* danhmucan */
+
+.categorycontent ul li ul li:first-child{
+    margin-top: 3px;
+}
+
+.categorycontent ul li ul li.liheader{
+    margin-top: 16px;
+}
+
+ul li a.header{
+    font-size: 15px;
+    padding-left: 33px;
+    color: #CF111A;
+}
+
+.categorycontent ul li ul .content{
+    float:left;
+    margin-left: 19px;
+    width: 300px;
+    height: 265px;
+}
+
+
+.categorycontent ul li ul .content.phai{
+    margin-left: 100px;
+}
+
+
+.categorycontent ul li ul .content li a:hover{
+    color: #F5A623;
+}
+/* danhmucan */
+
+/* css cho carousel */
+.nutcarousel.carousel-indicators li{
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+}
+
+/* het css cho carousel */
+
+
+/* css cho _1khoi */
+
+._1khoi h1.header {
+    font-size: 20px;
+}
+
+._1khoi h2.header {
+    font-size: 20px;
+}
+
+/* css cho nut xem tat ca  */
+a.btn.btn-warning.btn-sm.text-white {
+    height: 25px;
+    width: 77px;
+    background: #F5A623;
+    font-size: 11px;
+} 
+/* het css cho nut xem tat ca  */
+
+.card:hover .anh {
+    top: 5px;
+}
+
+img.card-img-top.anh {
+    position: relative;
+    top: 15px;
+    transition: 0.3s;
+}
+
+ul span.text-muted {
+    font-size: 11px;
+    padding-top: 6px;
+    padding-left: 12px;
+    color: #919191!important;
+}
+
+i.fa.fa-star {
+    font-size: 10px;
+    color: #bebebe;
+}
+
+li.active .fa-star {
+    color: #F5A623;
+}
+
+.sale {
+    background: #F5A623;
+    border-radius: 6px;
+    font-size: 11px;color: white;
+    padding: 1px 4px;
+    position: absolute;
+    right: 0
+    ;
+    top: 2px;
+}
+
+.giacu.text-muted {
+    font-size: 13px;
+    color: #919191!important;
+}
+
+.giamoi {
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 10px;
+}
+
+.gia.d-flex {
+    position: relative;
+}
+
+small.tacgia.text-muted {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    transition: 0.3s;
+    padding: 3px 0px;
+}
+
+h3.card-title.ten {
+    font-weight: 400;
+    margin-bottom: 4px;
+    font-size: 15px;
+    height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    transition: 0.3s;
+}
+
+.card-body.noidungsp {
+    padding: 10px 10px 0px 10px;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.card:hover .ten {
+    color: #F5A623;
+}
+
+/* het css cho _1khoi  */
+
+/* css cho margin slick */
+.card{
+    margin: 0 10px;
+}
+
+.khoisanpham {
+    margin: 0 -10px;
+}
+
+
+/* css cho 1 khoi san pham - slick */
+
+/* css rieng cho phan combo phat hanh - card-border*/
+.combohot .card{
+    border: none;
+}
+
+.sapphathanh .card{
+    border: none;
+}
+/* het css cho phan combo  */
+
+
+/* css cho khoi sach nen doc  */
+.sachnendoc .card-body.noidungsp.mt-3 {
+    padding: 10px 0 10px 0;
+}
+
+.sachnendoc a.detail {
+    font-size: 13px;
+    text-decoration: none;
+    color: #F5A623;
+}
+
+.sachnendoc .thoigian {display: inline-block;padding-top: 7px;}
+
+.sachnendoc h3.card-title.ten {
+    margin-top: -12px;
+}
+
+.sachnendoc img.card-img-top.anh {
+    position: static;
+    border-radius: 0;
+}
+
+.sachnendoc .card {
+    margin: 0;
+    border: none;
+}
+
+hr {margin-bottom: 0;position: relative;top: -31px;}
+
+.sachnendoc .col-lg {
+    padding-bottom: 30px;
+}
+/* het css cho khoi sach nen doc  */
+
+/* css cho dichvu  */
+.dichvu p.detail {
+    font-size: 12px;
+    margin-bottom: 1px;
+    width: 198px;
+}
+
+.dichvu {
+    padding: 24px 0px 24px;
+}
+
+.dichvu h3.tieude {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.dichvu .noidung {
+    width: 180px;
+}
+
+.dichvu img {
+    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+}
+/* het css cho dichvu  */
+
+/* css cho footer  */
+.ptthanhtoan {
+    width: 200px;
+}
+
+footer .row a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    transition: 0.3s;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+footer .row a:hover {
+    color:  #F5A623;
+}
+
+footer .header {
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+/* het css cho footer  */
+
+
+@media (max-width:767px){
+    .navbar form .input-group{
+        width: 100%!important;
+
+    }
+
+    .navbar ul li a.nav-link{
+        margin-left:0.25rem!important;
+    }
+
+    .navbar ul li.account{
+        border-top: 1px dashed #CF111A;
+        border-bottom: 1px dashed #CF111A;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.25rem;
+    }
+    .navbar ul li.giohang{
+        border-bottom: 1px dashed #CF111A;
+        padding-bottom: 0.5rem;
+        margin-right:8px;
+    }
+    .categorycontent{
+        display: none;
+    }
+}
+
+

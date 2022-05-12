@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow: /images/
+Disallow: /slick/
+Disallow: /fontawesome_free_5.13.0/
